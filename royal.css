@@ -1,0 +1,410 @@
+
+
+/*principal components*/
+/*body*/
+
+body
+{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-family:"Cormorant Garamond";
+}
+
+
+.principal {
+    
+margin: auto;
+    
+    
+}
+h1{
+    font-family:NSimSun;
+    
+}
+h2{
+    font-size: 23px;
+    color: rgb(99, 96, 96)
+    
+}
+
+
+
+/*header*/
+header{
+    width: 95%;
+    margin: auto;
+    display:block;
+
+}
+#t_admin{
+    padding-left: 30%;
+    position: absolute;
+}
+#logo{
+    width: 190px;
+    height: 200px;
+    margin: auto
+}
+
+
+header li{
+    display: inline;   
+    line-height: 50px;
+    list-style-type:none ;   
+    margin-top: 30px;
+}
+nav a:hover
+{
+    color: rgba(248, 232, 14, 0.966);
+    
+}
+
+nav a
+{
+    
+    font-size: 1.2em;
+    color: #000000;
+    text-decoration: none;
+    font-family: Nsimsun;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 300;
+   
+    
+}
+.banner_logo{
+    position:absolute;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    background-color: white;
+    left: 70px;
+    margin-top: 70px
+    
+}
+.head1{
+ 
+    width: 60%;
+  
+    padding-left: 36%;
+    text-align: right
+    
+
+    
+}
+.sociales{
+    list-style-type: none;
+    margin-left: 30px;
+  
+ 
+}
+.sociales ,.sesion{
+    display: inline-block;
+}
+
+.sesion{
+   
+float:right;
+height: 60px;
+margin-top: 10px;
+position: relative;
+
+
+
+}
+#soc, #soc2{
+    
+    display: inline-block;
+
+}
+#login{
+    text-decoration: none;
+    list-style-type: none;
+    color:rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+ 
+   
+    
+}
+#login:hover{
+    color: rgb(255, 4, 4);
+}
+/*main*/
+
+.col_left_general{
+    color:black;
+    height: 850px;
+    background-color: rgb(255, 255, 255);
+   
+   
+    
+
+}
+.somos_royal{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+}
+/*Registro*/
+
+.registro li{
+
+    list-style-type:none ;
+}
+
+.registro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    list-style-type: none; 
+}
+
+
+
+/*Seccion*/
+
+.col_left {
+color:black;
+width: 100%;
+
+}
+.fondo_index{ 
+background: url(fondo_index.jpg);
+height: 900px;
+width: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+.fondo_admin{ 
+   
+    height: 900px;
+    width: 100%;
+    background-color: rgb(2, 8, 8);
+ 
+    
+    
+    
+    }
+.fondo_color{
+    background-color: rgba(0, 0, 0, 0.267);
+    height:98%;
+    width: 97%;
+    margin: auto;
+    
+
+}
+.servicios{
+  margin-top: 100px
+  
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6{
+    width: 200px;
+    height: 150px;
+    text-align: justify;
+
+    font-size: 0.8em
+
+
+}
+.a_servicios{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 26px
+}
+.img_prom1,.img_prom2,.img_prom3, .img_prom4, .img_prom5, .img_prom6
+{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+#img_servicio{
+    width: 600px;
+    height: 400px;
+    
+    
+}
+.img_ser{
+    
+    margin-left: 70px;
+}
+.img_ser, .art_ser{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 400px;
+
+    text-align: center;
+
+}
+#title1{
+    color: #840327;
+font-size: 48px;
+font-weight: 100;
+text-transform: uppercase;
+line-height: 1.2em;
+}
+.title_ser{
+   margin-top: 90px;
+    text-align: center
+}
+#title_ser{
+    font-weight: 200;
+    line-height: 1.2;
+    color: #222;
+    font-size: 40px;
+    text-transform: uppercase
+    
+
+}
+.promociones{
+    display: block;
+    margin-top: 80px;
+   
+}
+#img_promo{
+    width: 206px;
+    height: 180px;
+    border-radius: 4px;
+    
+}
+
+.col_right{
+    float: right;
+    width: 24.5%;
+    height: 850px;
+    position: relative;
+   
+    border:solid 2px rgb(83, 83, 83);
+    
+   
+}
+aside{
+    text-align: center;
+}
+aside li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type:none ;
+    font-size: 1em;
+    margin-top: 34px
+}
+
+
+aside a{
+    
+    color: white
+}
+
+
+#registro{
+    color: rgb(229, 233, 5);
+   padding: 0.2em;
+    box-shadow: 0px 0px 11px 2px rgba(225, 253, 67, 0.897); 
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 0.4em;
+    
+}
+#ingresos{
+    color: rgb(229, 233, 5);
+    padding: 0.2em;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 0.4em;
+    
+
+}
+
+.registro1{
+    background-color: rgba(7, 7, 4, 0.658);   
+    text-align: center;
+    width: 700px;
+    height: 800px;
+    margin-left: 25%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+.graf_re{
+    background-color: rgba(218, 13, 57, 0.295);
+    
+}
+#button_re{
+    width: 20%;
+    border: none;
+    height: 50px;
+    background-color: transparent;
+    color: white
+    
+}
+#titulo_re{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em
+    
+    
+}
+aside a:hover
+{
+    color: #2c2c2c;
+    
+
+}
+/*footer*/
+footer{
+    background-color: #0e0b0b;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #ffffff;
+margin-top: 800px;
+    
+   
+
+}
+#img_foot{
+    width: 100px;
+    height: 35px;
+}
+
+.img_footer, .derechos{
+    display: inline-block;
+}
+.img_footer{
+    width: 30%;
+}
+/*/////////////////////////////////////////////////////////////////////////////////
+///////////////////////////MENU_ADMIN////////////////////////////////////////////*/
+.menu_admi{
+   padding-top: 200px;
+   text-align: center;
+   width: 1100px;
+   float: right;
+   margin-right: 9%;
+
+}
+.menu_admi a{
+    color: white;
+    
+    
+}
+.menu_admi li{
+    display: inline-block;
+    
+    
+}
+.menu_admi ul{
+    border: solid 1px rgb(8, 41, 43);
+    height: 40px;
+  
+    
+    
+
+}
